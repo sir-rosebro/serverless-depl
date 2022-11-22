@@ -1,0 +1,10 @@
+version: 0.2
+phases:
+  install:
+    runtime-versions:
+      nodejs: 14
+    commands:
+      - npm install -g serverless@3.19.0
+    build:
+      commands:
+        - yarn deploy:staging
