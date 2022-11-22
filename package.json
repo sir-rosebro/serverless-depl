@@ -1,20 +1,9 @@
 {
-  "name": "serverless-depl",
+  "name": "aws-node-express-api",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/sir-rosebro/serverless-depl.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/sir-rosebro/serverless-depl/issues"
-  },
-  "homepage": "https://github.com/sir-rosebro/serverless-depl#readme"
+  "dependencies": {
+    "express": "^4.17.1",
+    "serverless-http": "^2.7.0"
+  }
 }
